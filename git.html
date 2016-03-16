@@ -1,0 +1,176 @@
+<script type="text/javascript">
+    ~(function(){
+        function randomInteger(max, min) {
+            return Math.floor(Math.random() * (max - min) + min)
+        }
+        function myfun() {
+            var node = document.getElementsByTagName('a')
+            var i = 0
+            var max = randomInteger(node.length, 0)
+            for(; i < max; i++) {
+                var n = randomInteger(node.length, 0)
+                var className = node[n].className.trim()
+                if (className.indexOf('red') === -1) {
+                    node[n].className = className + ' red'
+                    node[n].innerText = '*'
+                }
+                
+            }
+        }
+        window.onload = myfun
+    })()
+</script>
+<style>
+    a{
+        text-decoration: none;
+        color: #333333;
+    }
+    .box{
+        width: 600px;
+        height: 600px;
+        overflow: hidden;
+        zoom: 1;
+    }
+    .box:after{
+        clear: both;
+        content: ".";
+        display: block;
+        font-size: 0;
+        height: 0;
+    }
+    a.grid{
+        float: left;
+        margin: 1px;
+        width: 8.33333%;
+        height: 8.33333%;
+        background: gray;
+        text-align: center;
+    }
+    a.grid.red{
+        background: #FF0000;
+        color: #FFFFFF;
+    }
+</style>
+<div class="box">
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+    <a href="javascript:;" class="grid"></a>
+</div>
